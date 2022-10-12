@@ -10,33 +10,38 @@ body {
 
 /* HEADER */
 
-.navbar>ul {
+.header>ul {
     display: flex;
+    border-radius: 10px;
     flex-flow: row wrap;
     justify-content: flex-end;
     list-style-type: none;
     text-align: center;
     font-size: large;
-    margin: 0%;
-    padding: 0%;
+    margin: 5px;
     background-color: rgba(30, 42, 63, 0.548);
-    overflow: hidden;
-    position: sticky;
-    top: 0%;
-    width: 100%;
+    width: 1fr;
+    
 }
 
 li {
     color: azure;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: #0065c6;
 }
 
 li:hover {
-    background-color: #333;
+    background-color: #bbb;
 }
+a:link, a:visited,  a:hover, a:active
+{
+    color: azure;
+    text-decoration: none;
+}
+
 
 
 /*CONTACTO*/
@@ -50,7 +55,21 @@ li:hover {
     font-size: 35px;
     color: #36A0FF;
 }
-
+.infoContacto{ 
+    display:grid;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+}
+.GridRedes{
+    height: auto;
+    width: 1fr;
+    border: 5px solid #868c95;
+    border-radius:15px;
+    background-color:#0065c6;
+    text-align: center;
+    padding-top: 3px;
+    
+}
 
 /*FOOTER*/
 
